@@ -60,6 +60,10 @@ main h2 {
     color: #38bdf8;
 }
 
+main a {
+    margin-bottom: 10px;
+}
+
 /* lista */
 ol li {
     margin-top: 13px;
