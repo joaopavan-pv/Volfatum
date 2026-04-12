@@ -1,6 +1,7 @@
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
+    padding: 0;
     background-color: rgb(11, 13, 24);
     color: #f1f5f9;
 }
@@ -10,6 +11,11 @@ header {
     background: linear-gradient(45deg, #777777, #ffffff, #777777);
     text-align: center;
     padding: 15px;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
 }
 
 /* Footer */
@@ -27,7 +33,7 @@ nav {
     background: linear-gradient(90deg, #000000, #2e2e2e, #000000);
     display: flex;
     justify-content: center;
-    gap: 15px;
+    gap: 25px;
     padding: 10px;
 }
 
@@ -77,10 +83,6 @@ th, td {
 
 th {
     background-color: #334869;
-}
-
-a {
-    margin-left: 150px;
 }
 
 
