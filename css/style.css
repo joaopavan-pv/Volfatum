@@ -43,7 +43,7 @@ nav a:hover {
 
 /* Conteúdo */
 main {
-    margin-left: 15px;
+    padding-left: 20px;
 }
 
 main p {
@@ -89,6 +89,6 @@ a {
     main {
         max-width: 900px;
         margin: auto;
-        margin-left: 160px;
+        margin-left: 150px;
     }
 }
