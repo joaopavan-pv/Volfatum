@@ -1,0 +1,104 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background-color: rgb(11, 13, 24);
+    color: #f1f5f9;
+}
+
+/* Header */
+header {
+    background: linear-gradient(45deg, #777777, #ffffff, #777777);
+    text-align: center;
+    padding: 15px;
+}
+
+/* Footer */
+footer {
+    background: linear-gradient(90deg, #000000, #202020, #000000);
+    text-align: center;
+    padding: 1px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Menu */
+nav {
+    background: linear-gradient(90deg, #000000, #2e2e2e, #000000);
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #38bdf8; /* efeito ao passar o mouse */
+}
+
+/* Conteúdo */
+main p {
+    padding-left: 15px;
+}
+
+main h2 {
+    color: #38bdf8;
+}
+
+/* lista */
+ol li {
+    margin-top: 13px;
+}
+ul li {
+    margin-top: 7px;
+}
+
+/* vídeo */
+iframe {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+/* Tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #334869;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #334869;
+}
+
+a {
+    margin-left: 150px;
+}
+
+/* 📱 TABLET */
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+/* 💻 DESKTOP */
+@media (min-width: 1024px) {
+    main {
+        max-width: 900px;
+        margin: auto;
+        margin-left: 200px;
+    }
+}
