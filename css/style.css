@@ -10,7 +10,6 @@ body {
 header {
     background: linear-gradient(45deg, #777777, #ffffff, #777777);
     text-align: center;
-    padding: 15px;
 }
 
 header img {
@@ -49,7 +48,6 @@ nav a:hover {
 
 /* Conteúdo */
 main {
-    padding-left: 20px;
     justify-items: center;
 }
 
@@ -60,23 +58,21 @@ section {
     width: 80%;
     border-style: solid;
     background-color: rgb(5, 6, 12);
+    padding-left: 1%;
+    padding-right: 0.5%;
 }
 
-main p {
-    padding-left: 15px;
-}
-
-main h2 {
-    margin-top: 30px;
+h2 {
+    margin-top: 20px;
     color: #38bdf8;
 }
 
-main h4 {
+h4 {
     margin-top: 50px;
 }
 
-main a {
-    margin-bottom: 10px;
+#forms {
+    padding-bottom: 15px;
 }
 
 /* lista */
@@ -84,7 +80,7 @@ ol li {
     margin-top: 50px;
 }
 ul li {
-    margin-top: 7px;
+    margin-top: 15px;
 }
 
 /* Tabela */
@@ -93,15 +89,56 @@ table {
     border-collapse: collapse;
     margin-top: 10px;
 }
-
 th, td {
     border: 1px solid #334869;
     padding: 10px;
     text-align: center;
 }
-
 th {
     background-color: #334869;
+}
+
+/* formulário */
+form {
+    justify-self: left;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 1%;
+    max-width:30%;
+    min-width:30%;
+}
+input {
+    background-color: rgb(11, 13, 24);
+    border-radius: 5px;
+    color: white;
+    width: 100%;
+}
+select{
+    border-radius: 5px;
+    background-color: rgb(11, 13, 24);
+    color: white;
+}
+.atr {
+    margin-top: 15px;
+    width: 15%;
+}
+#divisoria {
+    margin-top: 15px;
+    margin-bottom: 7px;
+}
+#txt {
+    max-width:205%;
+    min-width:205%;
+}
+.txtBox {
+    font-family: 'Arial', sans-serif;
+    max-width:100%;
+    min-width:100%;
+    max-height:25%;
+    min-height:25%;
+    background-color: rgb(11, 13, 24);
+    color: white;
+    border-radius: 7px;
 }
 
 
