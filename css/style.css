@@ -14,7 +14,7 @@ header {
 }
 
 header img {
-    max-width: 100%;
+    width: 40%;
     height: auto;
 }
 
@@ -50,6 +50,16 @@ nav a:hover {
 /* Conteúdo */
 main {
     padding-left: 20px;
+    justify-items: center;
+}
+
+section {
+    justify-items: center;
+    border-radius: 15px;
+    margin: 10px;
+    width: 80%;
+    border-style: solid;
+    background-color: rgb(5, 6, 12);
 }
 
 main p {
@@ -57,7 +67,12 @@ main p {
 }
 
 main h2 {
+    margin-top: 30px;
     color: #38bdf8;
+}
+
+main h4 {
+    margin-top: 50px;
 }
 
 main a {
@@ -66,7 +81,7 @@ main a {
 
 /* lista */
 ol li {
-    margin-top: 13px;
+    margin-top: 50px;
 }
 ul li {
     margin-top: 7px;
