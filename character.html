@@ -34,13 +34,13 @@
             <section>
                 <h2>Ficha</h2>
                 <form>
-                    <div style="display: flex; gap: 30px;">
-                        <div style="flex: 1;">
+                    <div id="blocos">
+                        <div class="bloco">
                             <label for="nome">Nome:</label><br>
                             <input id="nome" type="text"><br><br>
 
                             <label for="raca">Raça:</label><br>
-                            <select style="cursor: pointer;" name="raca" id="raca">
+                            <select id="raca">
                                 <optgroup label="Hominídeos">
                                     <option value="humano">Humano (+2 Von)</label>
 
@@ -62,9 +62,9 @@
                                 </optgroup>
                             </select><br><br>
                             
-                            <fieldset style="border-radius: 3px;">
+                            <fieldset id="atrBox">
                                 <legend>Atributos</legend>
-
+                                
                                 <input class="atr" type="number" id="Con" min="-1" max="3">
                                 <label for="Con">Constituição</label><br>
 
@@ -83,18 +83,23 @@
                                 <input class="atr" type="number" id="Sen" min="-1" max="3">
                                 <label for="Sen">Sentidos</label><br>
 
-                                <p id="divisoria">------------------------------------</p>
-
-                                <input class="atr" type="number" id="Von" min="0" max="2">
-                                <label for="Von">Vontade</label><br>
+                                <input class="atr" type="number" id="Von" min="0" max="2" style="margin-top: 30px;">
+                                <label for="Von" style="text-decoration: underline; text-decoration-thickness: 2px;">Vontade</label><br>
                             </fieldset>
 
                             <br>
-                            <input style="cursor: pointer; color: #e42121; font-weight: bold;" type="reset" value="Reset"><br><br>
-                            <input style="cursor: pointer; color: #74fcf5; font-weight: bold;" id="enviar" type="submit" value="Enviar">
+                            <div id="botoes">
+                                <div>
+                                    <input style="cursor: pointer; color: #e42121; font-weight: bold;" type="reset" value="Reset">
+                                </div>
+
+                                <div>
+                                    <input style="cursor: pointer; color: #74fcf5; font-weight: bold;" id="enviar" type="submit" value="Enviar">
+                                </div>
+                            </div>
                         </div>
-                    
-                        <div id="txt" style="flex: 1;">
+                        <br>
+                        <div class="bloco" id="txt">
                             <label for="lore">História:</label><br>
                             <textarea class="txtBox" id="lore">  Inclua a origem de seu personagem, de onde ele veio, o motivo dele começar uma jornada, seu objetivo, algum acontecimento trágico.</textarea>
                             <br><br>
@@ -103,8 +108,8 @@
                             <textarea class="txtBox" id="apr">  Inclua a altura, cor de pele, idade, vestimenta, características únicas. O que ele gosta e não gosta? Pense em como ele reagiria em certas situações, traços marcantes de sua personalidade.</textarea>
                             <br><br>
 
-                            <label for="apr">Essência e Peculiaridade (Caso seja uma BM):</label><br>
-                            <textarea class="txtBox" id="apr">  Como você utiliza a vontade para moldar o mundo? Caso encontre um inimigo como você iria lutar? Alguma outra habilidade utilitária? O que te torna único como besta mágica?</textarea>
+                            <label for="ess">Essência e Peculiaridade (Caso seja uma BM):</label><br>
+                            <textarea class="txtBox" id="ess">  Como você utiliza a vontade para moldar o mundo? Caso encontre um inimigo como você iria lutar? Alguma outra habilidade utilitária? O que te torna único como besta mágica?</textarea>
                         </div>
                     </div>
                 </form>
