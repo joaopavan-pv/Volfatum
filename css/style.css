@@ -56,7 +56,6 @@ main {
 }
 
 section {
-    justify-items: center;
     border-radius: 15px;
     margin: 10px;
     width: 80%;
@@ -67,11 +66,13 @@ section {
 }
 
 h2 {
+    text-align: center;
     margin-top: 20px;
     color: #38bdf8;
 }
 
 h4 {
+    text-align: center;
     margin-top: 50px;
 }
 
